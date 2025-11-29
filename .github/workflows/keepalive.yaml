@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Ping Render Service
         run: |
-          curl -I https://<your-render-service>.onrender.com || true
+          curl -I https://llm-tds-project2.onrender.com/healthz || true
